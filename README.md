@@ -1,6 +1,7 @@
 # TextWord
 TextWord for chinese short text classifitcation
-短文本分类，TextWord
+
+中文短文本分类，TextWord
 
 ## 介绍
 原始框架博客：[博客](https://zhuanlan.zhihu.com/p/73176084)  
@@ -11,9 +12,9 @@ TextWord for chinese short text classifitcation
 
 模型|acc|备注
 --|--|--
-TextWord|80.4%|使用TextWord
-TextCNN|77.2%|Kim 2014 经典的CNN文本分类
-FastText||bow+bigram+trigram
+TextWord|80.4%|使用TextWord,13 epoch
+TextCNN|77.2%|Kim 2014 ,13 epoch
+FastText|74.6%|bow+bigram+trigram，40 epoch
 
 
 
